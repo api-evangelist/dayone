@@ -1,24 +1,68 @@
 aid: dayone
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dayone.png
 name: DayOne
-description: 'DayOne is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'DayOne is a hyperscale data center company delivering next-generation digital infrastructure
+  for cloud, AI, and edge computing workloads. Spun out of the GDS International business and backed by
+  SoftBank Vision Fund 2, DayOne develops and operates strategically located, interconnected data center
+  campuses across Asia-Pacific — Singapore, Johor (Malaysia), Batam (Indonesia), Hong Kong, Tokyo, and
+  Bangkok — and is expanding into Europe with a launch market in Finland. The company positions itself
+  as a build-to-suit and hyperscale partner focused on power availability, connectivity, and sustainable
+  operations rather than as a public API or developer-platform provider; there is no public developer
+  portal, API, or SDK surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/dayone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - softbank-vision-fund
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: identity
+x-tier-reason: infrastructure-provider-no-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Frontier Tech
+- Data Centers
+- Digital Infrastructure
+- Hyperscale
+- Cloud Infrastructure
+- AI Infrastructure
+- Edge Computing
+- Sustainability
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dayone-domain-security.yml
+- type: Website
+  url: https://dayonedc.com/
+- type: About
+  url: https://dayonedc.com/about-us
+- type: Blog
+  url: https://dayonedc.com/news
+- type: Support
+  url: mailto:info@dayonedc.com
+- type: PrivacyPolicy
+  url: https://dayonedc.com/privacy-policy
+- type: Sustainability
+  url: https://dayonedc.com/sustainability
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
