@@ -44,7 +44,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Frontier Tech
-- Data-Center
+- Data Center
 - Digital Infrastructure
 - Hyperscale
 - Cloud Infrastructure
@@ -61,6 +61,7 @@ tags_raw:
 - AI Infrastructure
 - Edge Computing
 - Sustainability
+- Data-Center
 apis: []
 common:
 - type: DomainSecurity
