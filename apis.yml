@@ -40,7 +40,7 @@ x-tier: identity
 x-tier-reason: infrastructure-provider-no-api
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Frontier Tech
@@ -64,6 +64,8 @@ tags_raw:
 - Data-Center
 apis: []
 common:
+- url: https://dayonedc.com/feed.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/dayone-domain-security.yml
 - type: Website
